@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Admin\eclipse-workspace\PageFactoryPactice\Testsuite\Purchase.xml</span>
+                    <span>C:\Users\Admin\eclipse-workspace\PageFactoryPactice\Testsuite\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">4 methods, 2 failed,  1 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,15 +104,43 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com})">SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com})">SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})">SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com})">SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SubmitOrderTest" class="method navigator-link" hash-for-method="OrdersTest">OrdersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ErrorValidationTest" class="method navigator-link" hash-for-method="ErrorValidationTest">ErrorValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,74 +160,93 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com})">
-                  </a> <!-- SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}) -->
+                  <a name="SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com})">
+                  </a> <!-- SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com}) -->
                   <span class="method-name">SubmitOrderTest</span>
-                  <span class="parameters">({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com})</span>
+                  <span class="parameters">({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com})</span>
                   <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
 	at PracticingPageObject.LandingPage.LogInApplication(LandingPage.java:40)
 	at SubmitOrderTest.SubmitOrderTest(SubmitOrderTest.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 18 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})">
-                  </a> <!-- SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}) -->
+                  <a name="SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com})">
+                  </a> <!-- SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com}) -->
                   <span class="method-name">SubmitOrderTest</span>
-                  <span class="parameters">({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</span>
+                  <span class="parameters">({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com})</span>
                   <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
 	at PracticingPageObject.LandingPage.LogInApplication(LandingPage.java:40)
 	at SubmitOrderTest.SubmitOrderTest(SubmitOrderTest.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 18 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrdersTest">
+                  </a> <!-- OrdersTest -->
+                  <span class="method-name">OrdersTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SubmitOrderTest.OrdersTest()[pri:0, instance:SubmitOrderTest@3336e6b6] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorValidationTest">
+                  </a> <!-- ErrorValidationTest -->
+                  <span class="method-name">ErrorValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\eclipse-workspace\PageFactoryPactice\Testsuite\Purchase.xml</span>
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\PageFactoryPactice\Testsuite\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Purchase&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Purchase&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ErrorValidationTest&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;PageFactory.BaseTest.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ErrorValidationTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;ErrorValidationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ErrorValidationTest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;SubmitOrderTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SubmitOrderTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;SubmitOrderTest&quot;/&gt;
     &lt;/classes&gt;
@@ -229,6 +276,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">Errorhandle</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ErrorValidationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Purchase</span>
               <br/>
               <div class="method-in-group">
@@ -252,20 +307,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SubmitOrderTest')
-data.setCell(0, 2, 'SubmitOrderTest')
-data.setCell(0, 3, 56);
+data.setCell(0, 1, 'ErrorValidationTest')
+data.setCell(0, 2, 'ErrorValidationTest')
+data.setCell(0, 3, 908);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SubmitOrderTest')
 data.setCell(1, 2, 'SubmitOrderTest')
-data.setCell(1, 3, 26);
+data.setCell(1, 3, 164);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SubmitOrderTest')
+data.setCell(2, 2, 'SubmitOrderTest')
+data.setCell(2, 3, 112);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OrdersTest')
+data.setCell(3, 2, 'SubmitOrderTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -280,23 +343,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">SubmitOrderTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OrdersTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">ErrorValidationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">ErrorValidationTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -310,38 +359,40 @@ return data;
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ErrorValidationTest</span>
+                <span class="method-start">11829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closingAppliation</span>
+                <span class="method-start">12768 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">14341 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">ErrorValidationTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">closingAppliation</span>
-                <span class="method-start">12813 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</span>
-                <span class="method-start">14192 ms</span>
+                <span class="method-name">SubmitOrderTest({Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com})</span>
+                <span class="method-start">21318 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com})</span>
-                <span class="method-start">14299 ms</span>
+                <span class="method-name">SubmitOrderTest({Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com})</span>
+                <span class="method-start">22167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrdersTest</span>
+                <span class="method-start">22692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closingAppliation</span>
-                <span class="method-start">14346 ms</span>
+                <span class="method-start">22710 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

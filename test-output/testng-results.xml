@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T17:54:30 IST" name="Suite" finished-at="2024-06-25T17:54:45 IST" duration-ms="14697">
+  <suite started-at="2024-07-04T23:31:12 IST" name="Suite" finished-at="2024-07-04T23:31:36 IST" duration-ms="24696">
     <groups>
       <group name="Purchase">
-        <method signature="SubmitOrderTest.SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@43c1b556]" name="SubmitOrderTest" class="SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@3336e6b6]" name="SubmitOrderTest" class="SubmitOrderTest"/>
       </group> <!-- Purchase -->
+      <group name="Errorhandle">
+        <method signature="ErrorValidationTest.ErrorValidationTest()[pri:0, instance:ErrorValidationTest@4b86805d]" name="ErrorValidationTest" class="ErrorValidationTest"/>
+      </group> <!-- Errorhandle -->
     </groups>
-    <test started-at="2024-06-25T17:54:30 IST" name="ErrorValidationTest" finished-at="2024-06-25T17:54:43 IST" duration-ms="13322">
+    <test started-at="2024-07-04T23:31:12 IST" name="ErrorValidationTest" finished-at="2024-07-04T23:31:25 IST" duration-ms="13568">
       <class name="ErrorValidationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ErrorValidationTest@44c03695]" started-at="2024-06-25T17:54:30 IST" name="launchApplication" finished-at="2024-06-25T17:54:43 IST" duration-ms="12795" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ErrorValidationTest@4b86805d]" started-at="2024-07-04T23:31:12 IST" name="launchApplication" finished-at="2024-07-04T23:31:23 IST" duration-ms="11777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method is-config="true" signature="closingAppliation()[pri:0, instance:ErrorValidationTest@44c03695]" started-at="2024-06-25T17:54:43 IST" name="closingAppliation" finished-at="2024-06-25T17:54:43 IST" duration-ms="492" status="PASS">
+        <test-method signature="ErrorValidationTest()[pri:0, instance:ErrorValidationTest@4b86805d]" started-at="2024-07-04T23:31:24 IST" name="ErrorValidationTest" finished-at="2024-07-04T23:31:24 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationTest -->
+        <test-method is-config="true" signature="closingAppliation()[pri:0, instance:ErrorValidationTest@4b86805d]" started-at="2024-07-04T23:31:24 IST" name="closingAppliation" finished-at="2024-07-04T23:31:25 IST" duration-ms="789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingAppliation -->
       </class> <!-- ErrorValidationTest -->
     </test> <!-- ErrorValidationTest -->
-    <test started-at="2024-06-25T17:54:30 IST" name="SubmitOrderTest" finished-at="2024-06-25T17:54:45 IST" duration-ms="14697">
+    <test started-at="2024-07-04T23:31:26 IST" name="SubmitOrderTest" finished-at="2024-07-04T23:31:36 IST" duration-ms="10348">
       <class name="SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SubmitOrderTest@43c1b556]" started-at="2024-06-25T17:54:30 IST" name="launchApplication" finished-at="2024-06-25T17:54:44 IST" duration-ms="13559" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SubmitOrderTest@3336e6b6]" started-at="2024-07-04T23:31:26 IST" name="launchApplication" finished-at="2024-07-04T23:31:32 IST" duration-ms="6384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@43c1b556]" started-at="2024-06-25T17:54:44 IST" name="SubmitOrderTest" data-provider="getData" finished-at="2024-06-25T17:54:44 IST" duration-ms="56" status="FAIL">
+        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@3336e6b6]" started-at="2024-07-04T23:31:33 IST" name="SubmitOrderTest" data-provider="getData" finished-at="2024-07-04T23:31:33 IST" duration-ms="164" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Country=India, password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+                <![CDATA[{Country=India, password=Iamking@000, product=ZARA COAT 3, email=shetty@gmail.com}]]>
               </value>
             </param>
           </params>
@@ -44,7 +51,7 @@ at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
 at PracticingPageObject.LandingPage.LogInApplication(LandingPage.java:40)
 at SubmitOrderTest.SubmitOrderTest(SubmitOrderTest.java:25)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -61,24 +68,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrderTest -->
-        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@43c1b556]" started-at="2024-06-25T17:54:44 IST" name="SubmitOrderTest" data-provider="getData" finished-at="2024-06-25T17:54:44 IST" duration-ms="26" status="FAIL">
+        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:SubmitOrderTest@3336e6b6]" started-at="2024-07-04T23:31:34 IST" name="SubmitOrderTest" data-provider="getData" finished-at="2024-07-04T23:31:34 IST" duration-ms="112" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+                <![CDATA[{Country=India, password=Iamking@000, product=ADIDAS ORIGINAL, email=POM24@gmail.com}]]>
               </value>
             </param>
           </params>
@@ -92,7 +104,7 @@ at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
 at PracticingPageObject.LandingPage.LogInApplication(LandingPage.java:40)
 at SubmitOrderTest.SubmitOrderTest(SubmitOrderTest.java:25)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -109,20 +121,57 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrderTest -->
-        <test-method is-config="true" signature="closingAppliation()[pri:0, instance:SubmitOrderTest@43c1b556]" started-at="2024-06-25T17:54:44 IST" name="closingAppliation" finished-at="2024-06-25T17:54:45 IST" duration-ms="335" status="PASS">
+        <test-method signature="OrdersTest()[pri:0, instance:SubmitOrderTest@3336e6b6]" started-at="2024-07-04T23:31:34 IST" name="OrdersTest" finished-at="2024-07-04T23:31:34 IST" depends-on-methods="SubmitOrderTest.SubmitOrderTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SubmitOrderTest.OrdersTest()[pri:0, instance:SubmitOrderTest@3336e6b6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.OrdersTest()[pri:0, instance:SubmitOrderTest@3336e6b6] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersTest -->
+        <test-method is-config="true" signature="closingAppliation()[pri:0, instance:SubmitOrderTest@3336e6b6]" started-at="2024-07-04T23:31:34 IST" name="closingAppliation" finished-at="2024-07-04T23:31:36 IST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingAppliation -->

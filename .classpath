@@ -28,7 +28,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -127,15 +126,6 @@
 			<attribute name="m2e-apt" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
-		<attributes>
-			<attribute name="ignore_optional_problems" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="m2e-apt" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/TAI/jar_files/extentreports-5.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/TAI/jar_files/freemarker-2.3.32.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/TAI/jar_files/gson-2.10.1.jar"/>
@@ -147,5 +137,32 @@
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jar_files (1)/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jar_files (1)/testng-7.10.2.jar"/>
 	<classpathentry kind="src" path="/ExtentReport"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/ci-environment-10.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-core-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-expressions-17.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-gherkin-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-gherkin-messages-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-java-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/cucumber-plugin-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/datatable-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/docstring-7.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/gherkin-28.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/html-formatter-21.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/junit-xml-formatter-0.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/messages-24.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/query-12.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/tag-expressions-6.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber Java/testng-xml-formatter-0.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Webdriver 4/Cucumber TestNg/cucumber-testng-7.18.0.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

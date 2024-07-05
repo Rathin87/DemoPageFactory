@@ -9,7 +9,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -55,8 +54,8 @@ public class BaseTest {
 		return LandingPage;
 	}
 
-	@Test
-	public String getScreenshot(String TestcaseName) throws IOException {
+
+	public String getScreenshot(WebDriver driver,String TestcaseName) throws IOException {
 		TakesScreenshot TS = (TakesScreenshot) driver;
 		File SOURCE = TS.getScreenshotAs(OutputType.FILE);
 		File file = new File(System.getProperty("user.dir") + "//reports//" + TestcaseName + ".png");
@@ -79,7 +78,7 @@ public class BaseTest {
 
 	@AfterTest(alwaysRun = true)
 	public void closingAppliation() {
-		driver.close();
+		driver.quit();
 	}
 
 }
